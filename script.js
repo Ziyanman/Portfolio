@@ -26,4 +26,12 @@ if (currentHour < 12) {
 
 greetingElement.textContent = greetingText;
 greetingElement.className = greetingClass; // Assign class for styling
+
+// Alert button functionality
+const alertButton = document.getElementById("btn-alert");
+alertButton.addEventListener("click", () => {
+    alert("Hello world!");
+});
+
+
 }
