@@ -33,5 +33,20 @@ alertButton.addEventListener("click", () => {
     alert("Hello world!");
 });
 
+// Hover effect on button
+alertButton.addEventListener("mouseover", () => {
+    alertButton.textContent = "Hovered!";
+});
 
+alertButton.addEventListener("mouseout", () => {
+    alertButton.textContent = "Click Me";
+});
+
+// Populate ordered list with odd/even numbers
+const numbersList = document.getElementById("numbers");
+for (let i = 1; i <= 12; i++) {
+    const listItem = document.createElement("li");
+    listItem.textContent = i % 2 === 0 ? `Even (${i})` : `Odd (${i})`;
+    numbersList.appendChild(listItem);
 }
+
