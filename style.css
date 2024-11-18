@@ -8,11 +8,18 @@ body {
     line-height: 1.6;
 }
 
-/* Header and Footer */
-header, footer {
+/* Header and Footer Styling */
+header {
     background-color: #003366;
     color: white;
     padding: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
     text-align: center;
 }
 
@@ -48,42 +55,26 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
-/* Main Content Styling */
-main {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #ffffff;
+/* JavaScript-Enhanced Styles */
+.morning {
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px;
+    text-align: center;
 }
 
-section {
-    margin-top: 20px;
+.afternoon {
+    background-color: #66ccff;
+    color: black;
+    padding: 10px;
+    text-align: center;
 }
 
-/* Project List Styling */
-ul, dl {
-    margin-top: 10px;
-    padding-left: 20px;
-}
-
-/* Skills Section Styling with <dl> */
-dl dt {
-    font-weight: bold;
-    color: #0066cc;
-}
-
-dl dd {
-    margin: 0 0 10px 20px;
-}
-
-/* Table Styling */
-table, th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-th {
-    background-color: #f4f4f4;
+.evening {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
 /* Responsive Design */
@@ -96,4 +87,5 @@ th {
         font-size: 1.1em;
     }
 }
+
 
